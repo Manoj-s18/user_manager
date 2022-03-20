@@ -1,0 +1,33 @@
+.users {
+    margin: 2rem auto;
+    width: 90%;
+    max-width: 40rem;
+    
+  }
+  
+  .users ul {
+    list-style: none;
+    padding: 1rem;
+  }
+  
+  .users li {
+    border-radius: 12px;
+    font-weight: bold;
+    text-align:left;
+    
+    color:#ccc;
+    margin: 0.5rem 0;
+    padding: 0.5rem 0.5rem;
+    
+  }
+  
+  .users li:hover{
+    color: rosybrown;
+    cursor:pointer;
+  }
+  
+  .button{
+    background-color: grey;
+    color:aliceblue;
+    font-weight: 700;
+}

@@ -1,0 +1,53 @@
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 10;
+    background: rgba(102, 90, 90, 0.75);
+  }
+  
+  .modal {
+    position: fixed;
+    top: 5vh;
+    left: 10%;
+    width: 80%;
+    z-index: 100;
+    
+    overflow: auto;
+    background-color: grey;
+  }
+  
+  .header {
+    background: #ccc;
+    padding: 1rem;
+  }
+  
+  .header h2 {
+    margin: 0;
+    color: black;
+  }
+  
+  .content {
+    padding: 1rem;
+    font-weight: 600;
+  }
+  
+  .actions {
+    padding: 1rem;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .button{
+      background-color: grey;
+      color:aliceblue;
+      font-weight: 700;
+  }
+  
+  @media (min-width: 768px) {
+    .modal {
+      left: calc(50% - 20rem);
+      width: 40rem;
+    }
+  }
