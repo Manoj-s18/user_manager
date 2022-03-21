@@ -33,6 +33,8 @@ const AddUser = props =>{
         console.log(name,age);
         const data ={name:name,age:age}
         props.onAddUser(data);
+        nameRef.current.value='';
+        ageRef.current.value='';
         
 
     }
